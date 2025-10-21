@@ -1,0 +1,26 @@
+{
+  "name": "hw-7-js4",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Yosohanomi/hw-7-js4#readme",
+  "bugs": {
+    "url": "https://github.com/Yosohanomi/hw-7-js4/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yosohanomi/hw-7-js4.git"
+  },
+  "license": "ISC",
+  "author": "Sofia",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
