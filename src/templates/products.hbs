@@ -1,10 +1,12 @@
-<ul class="products_list">
+<ul class="products__list">
   {{#each products}}
-    <li>
-        <img class="image" src="{{image}}" alt="{{name}}">
-        <h2>{{name}}</h2>
-        <p>{{description}}</p>
-        <p>{{price}}</p>
+    <li class="products__item">
+        <img class="products__image" src="{{image}}" alt="{{name}}">
+        <div class="thumb">
+            <h2 class="products__title">{{name}}</h2>
+            <p class="products__text">{{description}}</p>
+            <p class="products__subtext">{{price}} $</p>
+        </div>
     </li>
   {{/each}}
 </ul>

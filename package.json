@@ -2,7 +2,7 @@
   "name": "hw-7-js4",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Yosohanomi/hw-7-js4#readme",
+  "homepage": "https://yosohanomi.github.io/hw-7-js4/",
   "bugs": {
     "url": "https://github.com/Yosohanomi/hw-7-js4/issues"
   },
@@ -21,7 +21,9 @@
     "predeploy": "npm run build"
   },
   "devDependencies": {
-    "parcel": "^2.16.0"
+    "parcel": "^2.16.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
